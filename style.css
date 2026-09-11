@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(F1.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* Navigation */
+
+nav{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-left: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+/* Search */
+
+.search{
+    display: flex;
+}
+
+.search input{
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: white;
+    padding: 10px;
+}
+
+
+.search button{
+    width: 80px;
+    background: #ff7200;
+    border: none;
+    color:white;
+}
+
+
+/* Main Section */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.content{
+    color:white;
+    width: 50%;
+}
+
+
+.content h1{
+    font-size: 50px;
+}
+
+.content span{
+    color:#ff7200;
+}
+
+
+.content p{
+    margin-top:20px;
+    line-height:30px;
+}
+
+
+.join{
+    margin-top:30px;
+    width:160px;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    border-radius:10px;
+}
+
+
+/* Login Box */
+
+.login-box{
+    width:300px;
+    background:rgba(0,0,0,0.8);
+    padding:25px;
+    border-radius:10px;
+}
+
+
+.login-box h2{
+    background:white;
+    color:#ff7200;
+    text-align:center;
+    padding:10px;
+}
+
+
+.login-box input{
+    width:100%;
+    height:40px;
+    margin-top:20px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid #ff7200;
+    color:white;
+}
+
+
+.login{
+    margin-top:25px;
+    width:100%;
+    height:40px;
+    background:#ff7200;
+    border:none;
+}
+
+
+.login-box p{
+    color:white;
+    text-align:center;
+    margin-top:20px;
+}
+
+
+.login-box a{
+    color:#ff7200;
+    text-decoration:none;
+}
