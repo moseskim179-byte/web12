@@ -1,0 +1,37 @@
+body.noStyle {
+font-family: Times New Roman, serif;
+background-color: white;
+color: black;
+}
+body.noStyle .container {
+width: auto;
+margin: 20px;
+}
+body.noStyle .welcome {
+background-color: white;
+color: black;
+padding: 0;
+border: none;
+}
+body.noStyle .welcome h1 {
+font-size: 32px;
+}
+body.noStyle .welcome p {
+font-size: 16px;
+}
+body.noStyle .menu button {
+background-color: white;
+border: none;
+padding: 5px;
+font-size: 16px;
+}
+body.noStyle .content {
+margin: 20px;
+}
+body.noStyle .content h2 {
+font-size: 32px;
+}
+body.noStyle .content p {
+font-size: 16px;
+line-height: 1.5;
+}
